@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Our Site</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<style>
+		/* Dropdown Button */
+.dropbtn {
+  background-color: grey;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;} 
+	</style>
+
+</head>
+
+<body style="background-color: red;">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#"> <img src="logo.png" width="70px"></a>
+  		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    		<ul class="navbar-nav mr-auto">
+      			<li class="nav-item active">
+      				<div class="dropdown">
+  						<button class="dropbtn">2bac</button>
+  						<div class="dropdown-content">
+    						<a href="#">SVT</a>
+    						<a href="#">PC</a>
+    						<a href="#">SM</a>
+    						<a href="#">Lettre</a>
+  						</div>
+					</div> 
+      			</li>
+    	  		<li class="nav-item">
+        			<div class="dropdown">
+  						<button class="dropbtn">1bac</button>
+  						<div class="dropdown-content">
+    						<a href="#">Link 1</a>
+    						<a href="#">Link 2</a>
+    						<a href="#">Link 3</a>
+  						</div>
+					</div>
+      			</li>
+      			<li class="nav-item active">
+      				<div class="dropdown">
+  						<button class="dropbtn">TC</button>
+  						<div class="dropdown-content">
+    						<a href="#">Link 1</a>
+    						<a href="#">Link 2</a>
+    						<a href="#">Link 3</a>
+  						</div>
+					</div> 
+      			</li>
+    	  		<li class="nav-item">
+        			<div class="dropdown">
+  						<button class="dropbtn">College</button>
+  						<div class="dropdown-content">
+    						<a href="#">Link 1</a>
+    						<a href="#">Link 2</a>
+    						<a href="#">Link 3</a>
+  						</div>
+					</div>
+      			</li>
+      			
+    		</ul>
+    		<form class="form-inline my-2 my-lg-0" >
+      			<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      			<button class="btn btn-outline-success my-2 my-sm-0" style="margin-left: 20px" >Connexion</button>
+    		</form>
+  		</div>
+	</nav>
+	<div style="padding-left: 60px; height : 300px ;width: 300px; margin: auto; margin-top: 100px; background: url('1.jpg');">
+		<img src="1.png" width="100px" style="margin-left: 40px;" >
+		<form>
+			<div>
+				<p>Username</p>
+				<input type="text" name="" placeholder="Enter Username" style="border-radius:25px;">
+				<p>Password</p>
+				<input type="password" name="" placeholder="Enter Password" style="border-radius:25px;">
+			</div>
+			<div>
+				<input type="submit" name="" value="Login" style="margin-left: 15%; margin-top: 10%; border-radius: 25px; width: 100px">
+			</div>
+			
+		</form>
+	</div>
+
+</body>
+</html>
